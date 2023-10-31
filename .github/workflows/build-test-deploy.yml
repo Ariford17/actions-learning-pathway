@@ -27,7 +27,7 @@ jobs:
       - run: npm test
 
 
- deploy: 
+  deploy: 
     needs: test
     permissions:
       contents: write
